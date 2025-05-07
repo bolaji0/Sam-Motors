@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sam Motors Ltd - Precision Mechanics. Honest Service. Full-service mechanic shop offering repairs, diagnostics, and performance upgrades for all vehicle types.">
+    <meta name="keywords" content="mechanic, car repair, auto service, vehicle maintenance, engine diagnostics, performance tuning, Sam Motors">
+    
+    <title>Sam Motors Ltd - Precision Mechanics. Honest Service.</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Urbanist:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+</head>
+<body>
+    <header id="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="#home">
+                    <h1>Sam Motors <span>Ltd</span></h1>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <div class="hamburger-menu">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="home" class="section-home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Precision Mechanics. <span class="highlight">Honest Service.</span></h1>
+                <h2>Sam Motors Ltd</h2>
+                <p>Expert automotive care for all vehicles, from everyday commuters to luxury performance cars.</p>
+                <div class="cta-buttons">
+                    <a href="#services" class="btn btn-primary">See Our Services</a>
+                    <a href="#contact" class="btn btn-secondary">Book Now</a>
+                </div>
+                <div class="trust-badges">
+                    <div class="badge">
+                        <i class="fas fa-certificate"></i>
+                        <span>Certified Technicians</span>
+                    </div>
+                    <div class="badge">
+                        <i class="fas fa-history"></i>
+                        <span>5+ Years Experience</span>
+                    </div>
+                    <div class="badge">
+                        <i class="fas fa-tools"></i>
+                        <span>Advanced Diagnostics</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- This would normally be an image but we'll use a placeholder div with CSS styling -->
+                <div class="hero-image-placeholder" aria-label="Mechanic working on a luxury car engine in a modern workshop"></div>
+            </div>
+        </div>
+        <div class="hero-reviews">
+            <div class="average-rating">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p><span>4.8/5</span> from over 500 satisfied customers</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SERVICES SECTION -->
+    <section id="services" class="section-services">
+        <div class="section-header">
+            <h2>Our <span class="highlight">Services</span></h2>
+            <p>Comprehensive automotive solutions tailored to your vehicle's needs</p>
+        </div>
+        
+        <div class="services-container">
+            <div class="service-card" data-aos="fade-up">
+                <div class="service-icon">
+                    <img src="/static/svg/car-repair.svg" alt="General Repairs Icon">
+                </div>
+                <h3>General Repairs</h3>
+                <p>Comprehensive repair services including brakes, suspension, and exhaust systems for all vehicle makes and models.</p>
+                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-icon">
+                    <img src="/static/svg/car-engine.svg" alt="Engine Diagnostics Icon">
+                </div>
+                <h3>Engine Diagnostics</h3>
+                <p>State-of-the-art computerized fault detection and troubleshooting to identify and resolve engine issues.</p>
+                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-icon">
+                    <img src="/static/svg/car-tuning.svg" alt="Performance Tuning Icon">
+                </div>
+                <h3>Performance Tuning</h3>
+                <p>Custom ECU remapping, turbo upgrades, and intake/exhaust tuning to maximize your vehicle's performance.</p>
+                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-icon">
+                    <img src="/static/svg/oil-change.svg" alt="Oil Changes Icon">
+                </div>
+                <h3>Oil Changes & Maintenance</h3>
+                <p>Fast and efficient servicing packages to keep your vehicle running smoothly with regular maintenance.</p>
+                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="service-icon">
+                    <img src="/static/svg/transmission.svg" alt="Transmission Work Icon">
+                </div>
+                <h3>Transmission Work</h3>
+                <p>Expert servicing for both automatic and manual transmissions to ensure smooth gear shifting and operation.</p>
+                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="service-icon">
+                    <img src="/static/svg/inspection.svg" alt="Pre-Purchase Inspection Icon">
+                </div>
+                <h3>Pre-Purchase Inspection</h3>
+                <p>Thorough assessment of used vehicles before purchase to identify potential issues and ensure a sound investment.</p>
+                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                <div class="service-icon">
+                    <img src="/static/svg/battery.svg" alt="Battery & Electrical Icon">
+                </div>
+                <h3>Battery & Electrical</h3>
+                <p>Complete electrical diagnostics, battery replacement, and alternator repair services to keep your vehicle powered.</p>
+                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="service-card" data-aos="fade-up" data-aos-delay="700">
+                <div class="service-icon">
+                    <img src="/static/svg/ac-repair.svg" alt="AC & Heating Repair Icon">
+                </div>
+                <h3>AC & Heating Repair</h3>
+                <p>Full climate system services to ensure your vehicle maintains comfortable temperatures year-round.</p>
+                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="service-card" data-aos="fade-up" data-aos-delay="800">
+                <div class="service-icon">
+                    <img src="/static/svg/luxury-car.svg" alt="Luxury Vehicle Icon">
+                </div>
+                <h3>Luxury & European Vehicles</h3>
+                <p>Specialized service for premium brands including BMW, Audi, Mercedes, and Porsche with factory-trained technicians.</p>
+                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section-about">
+        <div class="section-header">
+            <h2>About <span class="highlight">Sam Motors</span></h2>
+            <p>The story behind our passion for automotive excellence</p>
+        </div>
+        
+        <div class="about-container">
+            <div class="about-story" data-aos="fade-right">
+                <h3>The Sam Motors Story</h3>
+                <p>Founded in 2005 by Sam Johnson, a master technician with over 25 years of experience, Sam Motors Ltd was born from a passion for precision engineering and automotive craftsmanship.</p>
+                <p>What started as a small garage has grown into a full-service automotive center, maintaining the same principles of honesty, technical excellence, and customer satisfaction that guided us from day one.</p>
+                <p>Our mission is simple: to provide honest, transparent automotive service with uncompromising attention to detail. We believe every vehicle deserves expert care, whether it's a daily commuter or a high-performance luxury automobile.</p>
+            </div>
+            
+            <div class="about-image" data-aos="fade-in">
+                <!-- This would normally be an image but we'll use a placeholder div with CSS styling -->
+                <div class="about-image-placeholder" aria-label="Sam Motors workshop with technicians and luxury vehicles"></div>
+            </div>
+        </div>
+        
+        <div class="team-container">
+            <h3>Meet Our Expert Team</h3>
+            
+            <div class="team-grid">
+                <div class="team-member" data-aos="fade-up">
+                    <div class="member-image-placeholder" aria-label="Sam Johnson - Founder & Master Technician"></div>
+                    <h4>Sam Johnson</h4>
+                    <p class="member-title">Founder & Master Technician</p>
+                    <p>ASE Certified with specialization in European luxury vehicles. Over 25 years of experience.</p>
+                </div>
+                
+                <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+                    <div class="member-image-placeholder" aria-label="Mike Rodriguez - Lead Diagnostic Technician"></div>
+                    <h4>Mike Rodriguez</h4>
+                    <p class="member-title">Lead Diagnostic Technician</p>
+                    <p>Expert in computerized diagnostics and electrical systems with 5 years in the field.</p>
+                </div>
+                
+                <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member-image-placeholder" aria-label="Lisa Chen - Performance Specialist"></div>
+                    <h4>Lisa Chen</h4>
+                    <p class="member-title">Performance Specialist</p>
+                    <p>Specializes in ECU tuning and performance modifications for sports and luxury vehicles.</p>
+                </div>
+                
+                <div class="team-member" data-aos="fade-up" data-aos-delay="300">
+                    <div class="member-image-placeholder" aria-label="David Thompson - Service Manager"></div>
+                    <h4>David Thompson</h4>
+                    <p class="member-title">Service Manager</p>
+                    <p>Ensures every vehicle receives the highest standard of care and customer satisfaction.</p>
+                </div>
+            </div>
+            
+            <div class="certifications" data-aos="fade-up">
+                <h3>Our Certifications</h3>
+                <div class="certification-badges">
+                    <div class="certification">
+                        <i class="fas fa-award"></i>
+                        <span>ASE Certified</span>
+                    </div>
+                    <div class="certification">
+                        <i class="fas fa-car"></i>
+                        <span>BMW Specialized</span>
+                    </div>
+                    <div class="certification">
+                        <i class="fas fa-cog"></i>
+                        <span>Mercedes-Benz Trained</span>
+                    </div>
+                    <div class="certification">
+                        <i class="fas fa-bolt"></i>
+                        <span>Advanced Diagnostics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section-projects">
+        <div class="section-header">
+            <h2>Our <span class="highlight">Projects</span></h2>
+            <p>A showcase of our recent work and transformations</p>
+        </div>
+        
+        <div class="project-gallery">
+            <div class="project-item" data-aos="zoom-in">
+                <div class="project-image-placeholder" aria-label="BMW M3 Engine Overhaul - Before and After"></div>
+                <div class="project-info">
+                    <h3>BMW M3 Engine Overhaul</h3>
+                    <p>Complete engine rebuild with performance upgrades resulting in a 15% increase in horsepower.</p>
+                </div>
+            </div>
+            
+            <div class="project-item" data-aos="zoom-in" data-aos-delay="100">
+                <div class="project-image-placeholder" aria-label="Mercedes S-Class Electrical System Repair"></div>
+                <div class="project-info">
+                    <h3>Mercedes S-Class Electrical</h3>
+                    <p>Complex electrical system diagnosis and repair, resolving persistent issues other shops couldn't fix.</p>
+                </div>
+            </div>
+            
+            <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+                <div class="project-image-placeholder" aria-label="Audi R8 Performance Tuning"></div>
+                <div class="project-info">
+                    <h3>Audi R8 Performance Tuning</h3>
+                    <p>Custom ECU mapping and exhaust upgrade for optimized performance and sound.</p>
+                </div>
+            </div>
+            
+            <div class="project-item" data-aos="zoom-in" data-aos-delay="300">
+                <div class="project-image-placeholder" aria-label="Classic Porsche 911 Restoration"></div>
+                <div class="project-info">
+                    <h3>Classic Porsche 911 Restoration</h3>
+                    <p>Full mechanical restoration of a 1980s Porsche 911, bringing it back to factory specifications.</p>
+                </div>
+            </div>
+            
+            <div class="project-item" data-aos="zoom-in" data-aos-delay="400">
+                <div class="project-image-placeholder" aria-label="Tesla Model S Battery Repair"></div>
+                <div class="project-info">
+                    <h3>Tesla Model S Battery Repair</h3>
+                    <p>Specialized EV battery diagnostics and repair, extending range and performance.</p>
+                </div>
+            </div>
+            
+            <div class="project-item" data-aos="zoom-in" data-aos-delay="500">
+                <div class="project-image-placeholder" aria-label="Range Rover Suspension Upgrade"></div>
+                <div class="project-info">
+                    <h3>Range Rover Suspension Upgrade</h3>
+                    <p>Custom suspension setup for improved on-road comfort and off-road capability.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- TESTIMONIALS SECTION -->
+    <section id="testimonials" class="section-testimonials">
+        <div class="section-header">
+            <h2>Customer <span class="highlight">Testimonials</span></h2>
+            <p>What our satisfied clients have to say about us</p>
+        </div>
+        
+        <div class="testimonials-container">
+            <div class="testimonial-slider">
+                <div class="testimonial-slide" data-aos="fade-up">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Sam Motors diagnosed and fixed an electrical issue in my BMW that three other shops couldn't figure out. Their attention to detail and technical expertise is unmatched. I won't take my car anywhere else now."</p>
+                        <div class="testimonial-author">
+                            <h4>Michael L.</h4>
+                            <p>BMW M5 | Electrical Diagnostics</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"After Sam Motors tuned my Audi RS6, it feels like a completely different car. The power delivery is smoother, throttle response is sharper, and they even improved my fuel economy. Their knowledge of performance vehicles is impressive."</p>
+                        <div class="testimonial-author">
+                            <h4>Sarah K.</h4>
+                            <p>Audi RS6 | Performance Tuning</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>"I've been bringing my family's vehicles to Sam Motors for over 5 years. They're always honest about what needs to be done and what can wait. Their transparency and fair pricing have earned my complete trust."</p>
+                        <div class="testimonial-author">
+                            <h4>Robert J.</h4>
+                            <p>Multiple Vehicles | Regular Maintenance</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"The pre-purchase inspection Sam Motors did saved me from buying a nightmare of a car. They found issues the seller wasn't disclosing and even helped me find a better option. Their expertise is worth every penny."</p>
+                        <div class="testimonial-author">
+                            <h4>Jennifer T.</h4>
+                            <p>Mercedes C-Class | Pre-Purchase Inspection</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-controls">
+                <button class="prev-testimonial"><i class="fas fa-chevron-left"></i></button>
+                <button class="next-testimonial"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section-contact">
+        <div class="section-header">
+            <h2>Contact <span class="highlight">Us</span></h2>
+            <p>Schedule a service or get in touch with our team</p>
+        </div>
+        
+        <div class="contact-container">
+            <div class="contact-info" data-aos="fade-right">
+                <h3>Get In Touch</h3>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>28 Factory Ln, Croydon CR0 3RL, United Kingdom</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>(+44) 2086885707</p>
+                        <p class="emergency">24/7 Emergency: +442086885707</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>service@sammotors.com</p>
+                        <p>info@sammotors.com</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h4>Hours</h4>
+                        <p>Monday - Friday: 8AM - 6PM</p>
+                        <p>Saturday: 9AM - 4PM</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form-container" data-aos="fade-left">
+                <form class="contact-form" action="{{ url_for('submit_contact') }}" method="POST">
+                    <h3>Send Us a Message</h3>
+                    
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="service_type">Service Type</label>
+                        <select id="service_type" name="service_type">
+                            <option value="general_repair">General Repair</option>
+                            <option value="diagnostics">Engine Diagnostics</option>
+                            <option value="performance">Performance Tuning</option>
+                            <option value="maintenance">Oil Change & Maintenance</option>
+                            <option value="transmission">Transmission Work</option>
+                            <option value="inspection">Pre-Purchase Inspection</option>
+                            <option value="electrical">Battery & Electrical</option>
+                            <option value="ac_repair">AC & Heating Repair</option>
+                            <option value="luxury">Luxury Vehicle Service</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="map-container" data-aos="fade-up">
+            <h3>Find Us</h3>
+            <div id="map" class="google-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2490.4158586802128!2d-0.11426582338772304!3d51.37703457178394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876073c983d7c4d%3A0x5ffe456977fc7360!2sSam%20Motors%20ltd!5e0!3m2!1sen!2sng!4v1746616356293!5m2!1sen!2sng" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-branding">
+                <h2>Sam Motors <span>Ltd</span></h2>
+                <p>Precision Mechanics. Honest Service.</p>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 28 Factory Ln, Croydon CR0 3RL, United Kingdom</p>
+                <p><i class="fas fa-phone"></i>(+44) 2086885707</p>
+                <p><i class="fas fa-envelope"></i> service@sammotors.com</p>
+            </div>
+            <div class="footer-hours">
+                <h3>Operating Hours</h3>
+                <p>Monday - Friday: 8AM - 6PM</p>
+                <p>Saturday: 9AM - 4PM</p>
+                <p>Sunday: Closed</p>
+                <p class="emergency">24/7 Emergency: +442086885707</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Sam Motors Ltd. All rights reserved.</p>
+            <p style="color: chocolate;">Built by:Mustapha Fathiu: <a style="color: chocolate; text-decoration: underline;"  href="mailto:bjmustapha48@gmail.com">Mail</a></p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Cookie Consent -->
+    <div id="cookie-consent" class="cookie-consent">
+        <p>We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.</p>
+        <button id="accept-cookies">Accept</button>
+    </div>
+    
+    <!-- Callback Modal -->
+    <div id="callback-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Request a Callback</h2>
+            <form id="callback-form">
+                <div class="form-group">
+                    <label for="callback-name">Name</label>
+                    <input type="text" id="callback-name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="callback-phone">Phone Number</label>
+                    <input type="tel" id="callback-phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="callback-time">Best Time to Call</label>
+                    <select id="callback-time" name="time">
+                        <option value="morning">Morning (8AM - 12PM)</option>
+                        <option value="afternoon">Afternoon (12PM - 4PM)</option>
+                        <option value="evening">Evening (4PM - 6PM)</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit Request</button>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Flash Messages
+    <div id="flash-messages">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">
+                        {{ message }}
+                        <button class="close-alert">&times;</button>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+    </div> -->
+    
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    
+    <!-- Custom JS -->
+    <script src="/static/js/animations.js"></script>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
